@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #19c4b5;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 40px;
+  }
+  
+  .intro img {
+    width: 220px;
+    height: 330px;
+    object-fit: cover;
+  }
+  
+  .intro p {
+    max-width: 500px;
+    margin: 0 40px;
+  }
+  
+  .achievements {
+    margin: 40px;
+  }
+  
+  .achievements h2 {
+    text-align: center;
+  }
+  
+  .achievements ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .achievements li {
+    margin: 10px 0;
+  }
+  
+  .quote {
+    margin: 40px;
+    text-align: center;
+  }
+  
+  .quote h2 {
+    margin-top: 0;
+  }
+  
+  footer {
+    background-color: #19c4b5;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
